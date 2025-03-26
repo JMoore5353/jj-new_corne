@@ -45,7 +45,7 @@
 };
 
 // Define the miryoku keymap
-#include "miryoku_zmk/config/corne.keymap"
+#include "miryoku/config/corne.keymap"
 
 
 // 
