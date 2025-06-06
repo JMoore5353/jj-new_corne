@@ -15,7 +15,7 @@ manifest:
     - name: miryoku_zmk
       remote: miryoku_zmk
       revision: master
-      path: miryoku_zmk
+      path: config/miryoku_zmk
     - name: zmk
       remote: zmkfirmware
       revision: main
