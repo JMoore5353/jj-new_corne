@@ -6,16 +6,10 @@ manifest:
       # See:
       # - https://zmk.dev/docs/features/modules
       # - https://docs.zephyrproject.org/3.5.0/develop/west/manifest.html#projects
-    - name: miryoku_zmk
-      url-base: https://github.com/JMoore5353
   projects:
     - name: eyelash_corne
       url: https://github.com/a741725193/zmk-new_corne
       revision: main
-    - name: miryoku_zmk
-      remote: miryoku_zmk
-      revision: master
-      path: config/miryoku_zmk
     - name: zmk
       remote: zmkfirmware
       revision: main
